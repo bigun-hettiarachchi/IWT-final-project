@@ -86,7 +86,7 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script_bigun.js"></script>
 </body>
 
 </html>
