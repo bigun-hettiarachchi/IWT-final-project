@@ -23,14 +23,14 @@
     <div class="auth-buttons">
       <button class="login-btn" onclick="">Login</button>
       <button class="signup-btn">Sign Up</button>
-      <button class="signup-btn admin-btn" onclick="location.href='login.php'">Admin</button>
+      <button class="signup-btn admin-btn" onclick="location.href='admin_login.php'">Admin</button>
     </div>
   </nav>
 
   <!-- Hero Section -->
   <section class="hero">
     <img
-      src="images/agency-hero-3.webp"
+      src="images_bigun/agency-hero-3.webp"
       alt="Hero Image"
       class="hero-img"
       height="400px" />
@@ -104,7 +104,7 @@
     </div>
   </footer>
 
-  <script src="index.js"></script>
+  <script src="script_bigun.js"></script>
 </body>
 
 </html>

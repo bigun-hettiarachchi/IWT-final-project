@@ -27,8 +27,7 @@
   <section>
     <div class="contract-head">
       <h2>Contracts List</h2>
-      <button onclick="location.href='dashboard.php'" class="btn green backdashboard">Back to Dashboard</button>
-
+      <button onclick="location.href='admin_dashboard.php'" class="btn green backdashboard">Back to Dashboard</button>
     </div>
 
     <table>

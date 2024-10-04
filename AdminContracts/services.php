@@ -132,7 +132,7 @@
     </div>
   </footer>
 
-  <script src="index.js"></script>
+  <script src="script_bigun.js"></script>
 </body>
 
 </html>

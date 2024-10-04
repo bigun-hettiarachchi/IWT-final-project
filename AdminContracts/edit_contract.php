@@ -15,10 +15,10 @@
       <img src="images_bigun/logo-new.png" alt="Logo" width="75px" height="auto" />
     </div>
     <ul class="nav-links">
-      <li><a href="#">Home</a></li>
+      <li><a href="home.php">Home</a></li>
       <li><a href="services.html">Services</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="contact.php">Contact</a></li>
     </ul>
     <div class="auth-buttons">
       <button class="login-btn hiddenbtn">Login</button>
@@ -116,7 +116,7 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script_bigun.js"></script>
 
 </body>
 

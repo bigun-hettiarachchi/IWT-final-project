@@ -53,7 +53,7 @@
       <input type="text" id="customer_mobile" name="customer_mobile" required>
 
       <button type="submit" class="btn green">Submit</button>
-      <button onclick="location.href='dashboard.php'" class="btn back">Cancel</button>
+      <button onclick="location.href='admin_dashboard.php'" class="btn back">Cancel</button>
     </form>
 
   </section>
@@ -92,7 +92,7 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script_bigun.js"></script>
 </body>
 
 </html>

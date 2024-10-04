@@ -11,10 +11,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   if ($result->num_rows == 1) {
     echo "<script>alert('Login successful');</script>";
-    echo "<script>window.location.href='dashboard.php';</script>";
+    echo "<script>window.location.href='admin_dashboard.php';</script>";
   } else {
     echo "<script>alert('Login failed!');</script>";
-    echo "<script>window.location.href='login.php';</script>";
+    echo "<script>window.location.href='admin_login.php';</script>";
   }
 }
 

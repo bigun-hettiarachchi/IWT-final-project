@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Dashboard</title>
   <link rel="stylesheet" href="style_bigun.css">
+  <title>Admin Login</title>
 </head>
 
 <body>
+
   <nav class="navbar">
     <div class="logo">
       <img src="images_bigun/logo-new.png" alt="Logo" width="75px" height="auto" />
@@ -25,11 +26,17 @@
     </div>
   </nav>
 
-  <section id="dashboard-section">
+  <section>
+    <h2>Admin Login</h2>
+    <form action="admin_login.inc.php" method="post">
+      <label for="email">Email</label>
+      <input type="text" name="adminEmail" id="email" required><br>
 
-    <h2>Admin Dashboard</h2>
-    <button class="dashboard-btn dbtn-1" onclick="window.location.href='create_contract.php'">Create Contract</button>
-    <button class="dashboard-btn dbtn-2" onclick="window.location.href='contract_list.php'">View Contracts</button>
+      <label for="password">Password</label>
+      <input type="password" name="adminPwd" id="password" required><br>
+
+      <button type="submit" name="login" class="btn login-btn">Login</button>
+    </form>
 
   </section>
 
@@ -67,7 +74,7 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+
 </body>
 
 </html>
