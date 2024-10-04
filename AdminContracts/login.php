@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_bigun.css">
   <title>Admin Login</title>
 </head>
 
@@ -12,7 +12,7 @@
 
   <nav class="navbar">
     <div class="logo">
-      <img src="images/logo-new.png" alt="Logo" width="75px" height="auto" />
+      <img src="images_bigun/logo-new.png" alt="Logo" width="75px" height="auto" />
     </div>
     <ul class="nav-links">
       <li><a href="home.php">Home</a></li>
@@ -66,7 +66,7 @@
         </div>
       </div>
       <div class="footer-logo">
-        <img src="images/logo-new.png" alt="Logo" width="75px" height="auto" />
+        <img src="images_bigun/logo-new.png" alt="Logo" width="75px" height="auto" />
       </div>
     </div>
     <div class="footer-bottom">
