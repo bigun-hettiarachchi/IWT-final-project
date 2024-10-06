@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About BrightSpark Ads</title>
-  <link rel="stylesheet" href="/css/aboutcss.css">
+  <link rel="stylesheet" href="../AdminContracts/css/aboutcss.css">
 </head>
 
 <body>
@@ -13,16 +13,16 @@
     <nav class="navbar">
       <div class="logo">
         <img
-          src="image/Logoo.png"
+          src="../AdminContracts/image/Logoo.png"
           alt="Logo"
           width="100%"
           height="auto" />
       </div>
       <ul class="nav-links">
-        <li><a href="/AdminContracts/home.php">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="AboutUs .php">About</a></li>
-        <li><a href="Contact Us.php">Contact</a></li>
+        <li><a href="../AdminContracts/home.php">Home</a></li>
+        <li><a href="../AdminContracts/services.php">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="../AdminContracts/Contact Us.php">Contact</a></li>
       </ul>
       <div class="auth-buttons">
 
@@ -93,7 +93,7 @@
     </div>
   </footer>
 
-  <script src="js/aboutjs.js"></script>
+  <script src="../Vishwa/aboutjs.js"></script>
 </body>
 
 </html>
