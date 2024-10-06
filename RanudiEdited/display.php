@@ -179,7 +179,7 @@ $result = $conn->query($sql);
 			<img src="./Logoo.png" alt="Logo" width="75px" height="auto" />
 		</div>
 		<ul class="nav-links">
-			<li><a href="">Home</a></li>
+			<li><a href="../AdminContracts/home.php">Home</a></li>
 			<li><a href="services.php">Services</a></li>
 			<li><a href="#">About</a></li>
 			<li><a href="contact.php">Contact</a></li>
