@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -28,21 +28,9 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <!-- <section class="hero">
-      <img
-        src="images/agency-hero-3.webp"
-        alt="Hero Image"
-        class="hero-img"
-        height="400px"
-      />
-      <div class="hero-text">
-        <h1>Welcome to BrightSpark Ads</h1>
-        <p>We bring your vision to life with expert advertising solutions.</p>
-      </div>
-    </section> -->
+ 
 
-  <!-- Main Content -->
+
   <div class="service-section">
     <h2>Our Services</h2>
     <p>
@@ -97,7 +85,6 @@
     </div>
   </div>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-text">
@@ -135,4 +122,4 @@
   <script src="script_bigun.js"></script>
 </body>
 
-</html>
+</html> -->

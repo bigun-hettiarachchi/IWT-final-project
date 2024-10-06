@@ -16,7 +16,7 @@
     </div>
     <ul class="nav-links">
       <li><a href="../AdminContracts/home.php">Home</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="../Kavindu/Publisherservices.html">Services</a></li>
       <li><a href="../Vishwa/AboutUs.html">About</a></li>
       <li><a href="../Vishwa/Contact Us.html">Contact</a></li>
     </ul>
@@ -38,7 +38,7 @@
 
     <h2>User Dashboard</h2>
     <button class="dashboard-btn dbtn-1" onclick="window.location.href='../DharanaIWT/insert.php'">Advertiser</button>
-    <button class="dashboard-btn dbtn-2" onclick="window.location.href='#'">Publisher</button>
+    <button class="dashboard-btn dbtn-2" onclick="window.location.href='../Kavindu/create.php'">Publisher</button>
 
   </section>
 

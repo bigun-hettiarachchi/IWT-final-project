@@ -14,7 +14,7 @@ $sql = "INSERT INTO ad_manegement (title,message, start_date, end_date) VALUES (
 // Execute the query
 if ($con->query($sql)) {
     // Redirect back to the ManageAds.html page
-    header("Location: index.php");
+    header("Location: create.php");
     exit();
 } else {
     echo "Error: " . $con->error;

@@ -180,7 +180,7 @@ $result = $conn->query($sql);
 		</div>
 		<ul class="nav-links">
 			<li><a href="../AdminContracts/home.php">Home</a></li>
-			<li><a href="../AdminContracts/services.php">Services</a></li>
+			<li><a href="../Kavindu/Publisherservices.html">Services</a></li>
 			<li><a href="../Vishwa/AboutUs.html">About</a></li>
 			<li><a href="../Vishwa/Contact Us.html">Contact</a></li>
 		</ul>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,30 @@
     <!--<script src="ManageAds.js"></script>-->
     <title>Publisher - Manage Ads</title>
 </head>
+
 <body>
     <nav class="navbar">
         <div class="logo">
-            <img src="../images/Logoo.png" alt="Logo" width="75px" height="auto">
+            <img src="../Kavindu/Logoo.png" alt="Logo" width="75px" height="auto">
         </div>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../AdminContracts/home.php">Home</a></li>
+            <li><a href="../Kavindu/Publisherservices.html">Services</a></li>
+            <li><a href="../Vishwa/AboutUs.html">About</a></li>
+            <li><a href="../Vishwa/Contact Us.html">Contact</a></li>
         </ul>
         <div class="auth-buttons">
-            <button class="login-btn">Login</button>
-            <button class="signup-btn">Sign Up</button>
+            <button class="login-btn" onclick="location.href='../Vishwa/login.php'">
+                Login
+            </button>
+            <button
+                class="signup-btn"
+                onclick="location.href='../RanudiEdited/Register.html'">
+                Sign Up
+            </button>
         </div>
     </nav>
-    
+
     <h1>Publisher Ad Management</h1>
 
     <!-- Create Ad Form -->
@@ -45,11 +53,11 @@
     </form>
 
     <!-- Ad List Table -->
-   <!-- Ad List Table -->
-<div>
-    <?php
-    require 'config.php';
-    echo "
+    <!-- Ad List Table -->
+    <div>
+        <?php
+        require 'config.php';
+        echo "
     <style>
         
         .action-btns {
@@ -82,15 +90,15 @@
     ";
 
 
-    // SQL query to fetch all ads
-   // SQL query to fetch all ads
-$sql = "SELECT ad_id, title,message, start_date, end_date FROM ad_manegement"; // Change 'id' to 'ad_id'
+        // SQL query to fetch all ads
+        // SQL query to fetch all ads
+        $sql = "SELECT ad_id, title, message, start_date, end_date FROM ad_manegement"; // Change 'id' to 'ad_id'
 
-    $result = $con->query($sql);
+        $result = $con->query($sql);
 
-    if ($result->num_rows > 0) {
-        // Table to display ads
-        echo "<table>
+        if ($result->num_rows > 0) {
+            // Table to display ads
+            echo "<table>
                 <tr>
                     <th>Ad ID</th>
                     <th>Title</th>
@@ -100,15 +108,15 @@ $sql = "SELECT ad_id, title,message, start_date, end_date FROM ad_manegement"; /
                     <th>Actions</th>
                 </tr>";
 
-        // Display each row of data
-        while ($row = $result->fetch_assoc()) {
-            echo "<tr>";
-            echo "<td>" . $row['ad_id'] . "</td>";
-            echo "<td>" . $row['title'] . "</td>";
-            echo "<td>" . $row["message"] . "</td>";
-            echo "<td>" . $row['start_date'] . "</td>";
-            echo "<td>" . $row['end_date'] . "</td>"; // Show end date here
-            echo "<td>
+            // Display each row of data
+            while ($row = $result->fetch_assoc()) {
+                echo "<tr>";
+                echo "<td>" . $row['ad_id'] . "</td>";
+                echo "<td>" . $row['title'] . "</td>";
+                echo "<td>" . $row["message"] . "</td>";
+                echo "<td>" . $row['start_date'] . "</td>";
+                echo "<td>" . $row['end_date'] . "</td>"; // Show end date here
+                echo "<td>
                     <div class='action-btns'>
                         <form action='edit.php' method='POST'>
                             <input type='hidden' name='ad_id' value='" . $row['ad_id'] . "'>
@@ -120,16 +128,16 @@ $sql = "SELECT ad_id, title,message, start_date, end_date FROM ad_manegement"; /
                         </form>
                     </div>
                   </td>";
-            echo "</tr>";
+                echo "</tr>";
+            }
+            echo "</table>";
+        } else {
+            echo "No ads found.";
         }
-        echo "</table>";
-    } else {
-        echo "No ads found.";
-    }
 
-    $con->close();
-    ?>
-</div>
+        $con->close();
+        ?>
+    </div>
 
     <footer class="footer">
         <div class="footer-content">
@@ -140,7 +148,7 @@ $sql = "SELECT ad_id, title,message, start_date, end_date FROM ad_manegement"; /
                     <a href="#">Our Mission</a>
                     <a href="#">Our Vision</a>
                     <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Use</a> 
+                    <a href="#">Terms of Use</a>
                 </div>
                 <div class="footer-text-content footer-2">
                     <h4>Contact Us</h4>
@@ -156,7 +164,7 @@ $sql = "SELECT ad_id, title,message, start_date, end_date FROM ad_manegement"; /
                 </div>
             </div>
             <div class="footer-logo">
-                <img src="../images/Logoo.png" alt="Logo">
+                <img src="../Kavindu/Logoo.png" alt="Logo">
             </div>
         </div>
         <div class="footer-bottom">
@@ -164,4 +172,5 @@ $sql = "SELECT ad_id, title,message, start_date, end_date FROM ad_manegement"; /
         </div>
     </footer>
 </body>
+
 </html>
