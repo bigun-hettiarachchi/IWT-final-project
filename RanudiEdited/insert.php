@@ -13,6 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$psw = $_POST["psw"];
 
 	//check gmail
+
 	$checkQuery = "SELECT * FROM user WHERE email = '$email'";
 	$result = $conn->query($checkQuery);
 

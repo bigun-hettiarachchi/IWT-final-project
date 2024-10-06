@@ -180,9 +180,9 @@ $result = $conn->query($sql);
 		</div>
 		<ul class="nav-links">
 			<li><a href="../AdminContracts/home.php">Home</a></li>
-			<li><a href="services.php">Services</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="contact.php">Contact</a></li>
+			<li><a href="../AdminContracts/services.php">Services</a></li>
+			<li><a href="../Vishwa/AboutUs.html">About</a></li>
+			<li><a href="../Vishwa/Contact Us.html">Contact</a></li>
 		</ul>
 		<div class="auth-buttons">
 			<button class="login-btn" onclick="location.href='login.php'">Login</button>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - BrightSpark Ads</title>
-    <link rel="stylesheet" href="logincss.css"> <!-- Link to external CSS -->
+    <link rel="stylesheet" href="../Vishwa/logincss.css"> <!-- Link to external CSS -->
 </head>
 
 <body style="background-image: url(login3.jpg); background-size: cover;background-position: center;">
@@ -15,7 +15,8 @@
         </header>
 
         <div class="login-box">
-            <a href="#" class="back-arrow">&#x2190;</a> <!-- Back Arrow -->
+            <a href="../AdminContracts/home.php" class="back-arrow">&#x2190;</a>
+            <!-- <a href="href=" javascript:void(0);" class="back-arrow" onclick="window.history.back();">&#x2190;</a> Back Arrow -->
             <h2>Login</h2>
 
             <form action="#" method="post">
@@ -37,7 +38,7 @@
 
     </div>
 
-    <script src="loginjs.js"></script> <!-- Link to external JS -->
+    <script src="../RanudiEdited/loginjs.js"></script> <!-- Link to external JS -->
 </body>
 
 </html>
