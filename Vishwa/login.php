@@ -16,10 +16,9 @@
 
         <div class="login-box">
             <a href="../AdminContracts/home.php" class="back-arrow">&#x2190;</a>
-            <!-- <a href="href=" javascript:void(0);" class="back-arrow" onclick="window.history.back();">&#x2190;</a> Back Arrow -->
             <h2>Login</h2>
 
-            <form action="#" method="post">
+            <form action="../AdminContracts/afterLogin.php" method="post">
                 <div class="textbox">
                     <input type="text" placeholder="Username" name="username" required>
                 </div>

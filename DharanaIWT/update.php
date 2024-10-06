@@ -6,6 +6,7 @@ if (isset($conn)) { // Check if connection was successful
     if (isset($_GET['advertiseName'])) {
         $advertiseName = $_GET['advertiseName'];
 
+
         // Retrieve the record with the given advertiseName
         $sql = "SELECT * FROM advertise_details WHERE advertiseName = '$advertiseName'";
         $result = $conn->query($sql); // Use the correct connection variable
@@ -18,7 +19,7 @@ if (isset($conn)) { // Check if connection was successful
             $adBudget = $row['Budget']; // Corrected column name to 'Budget'
 
             // Display the update form
-            echo "<form action='./update.inc.php' method='post' id='adForm' style='display: flex; flex-direction: column; width: 300px; gap: 10px;'>";
+            echo "<form action='../DharanaIWT/update.inc.php' method='post' id='adForm' style='display: flex; flex-direction: column; width: 300px; gap: 10px;'>";
 
             echo "<label for='advertiserName'>Advertiser Name</label>";
             echo "<input type='text' id='advertiseName' name='advertiseName' value='" . $advertiserName . "' required>";

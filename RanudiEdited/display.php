@@ -185,8 +185,8 @@ $result = $conn->query($sql);
 			<li><a href="../Vishwa/Contact Us.html">Contact</a></li>
 		</ul>
 		<div class="auth-buttons">
-			<button class="login-btn" onclick="location.href='login.php'">Login</button>
-			<button class="signup-btn">Sign Up</button>
+			<button class="login-btn" onclick="location.href='../Vishwa/login.php'">Login</button>
+			<button class="signup-btn" onclick="location.href='../RanudiEdited/Register.html'">Sign Up</button>
 
 		</div>
 	</nav>
@@ -257,7 +257,7 @@ $result = $conn->query($sql);
 				</div>
 			</div>
 			<div class="footer-logo">
-				<img src="./Logoo.png" alt="Logo" width="75px" height="auto" />
+				<img src="../RanudiEdited/Logoo.png" alt="Logo" width="75px" height="auto" />
 			</div>
 		</div>
 		<div class="footer-bottom">

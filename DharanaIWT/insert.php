@@ -12,6 +12,7 @@
 <body>
   <h1>insert user Details </h1>
 
+
 </body>
 
 <body>
@@ -24,14 +25,14 @@
         height="auto" />
     </div>
     <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="../AdminContracts/home.php">Home</a></li>
+      <li><a href="../AdminContracts/services.php">Services</a></li>
+      <li><a href="../Vishwa/AboutUs.html">About</a></li>
+      <li><a href="../Vishwa/Contact Us.html">Contact</a></li>
     </ul>
     <div class="auth-buttons">
-      <button class="login-btn">Login</button>
-      <button class="signup-btn">Sign Up</button>
+      <button class="login-btn" onclick="location.href='../Vishwa/login.php'">Login</button>
+      <button class="signup-btn" onclick="location.href='../RanudiEdited/Register.html'">Sign Up</button>
     </div>
   </nav>
 
@@ -85,17 +86,8 @@
             <button type="submit" class="btn-submit">Submit Ad</button>
 
           </form>
-
-
-
         </div>
 
-
-
-
-      </body>
-
-      </html>
     </div>
   </section>
 
@@ -134,7 +126,7 @@
     </div>
   </footer>
 
-  <script src="insert.js"></script>
+  <script src="../DharanaIWT/insert.js"></script>
 </body>
 
 </html>

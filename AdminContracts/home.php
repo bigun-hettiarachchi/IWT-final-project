@@ -15,17 +15,24 @@
       <img src="images_bigun/logo-new.png" alt="Logo" width="75px" height="auto" />
     </div>
     <ul class="nav-links">
-      <li><a href="home.php">Home</a></li>
-      <li><a href="services.php">Services</a></li>
-      <li><a href="/Vishwa/AboutUs.html">About</a></li>
-      <li><a href="contact.php">Contact</a></li>
+      <li><a href="../AdminContracts/home.php">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="../Vishwa/AboutUs.html">About</a></li>
+      <li><a href="../Vishwa/Contact Us.html">Contact</a></li>
     </ul>
     <div class="auth-buttons">
-      <button class="login-btn" onclick="">Login</button>
-      <button class="signup-btn">Sign Up</button>
-      <button class="signup-btn admin-btn" onclick="location.href='admin_login.php'">Admin</button>
+      <button class="login-btn" onclick="location.href='../Vishwa/login.php'">
+        Login
+      </button>
+      <button
+        class="signup-btn"
+        onclick="location.href='../RanudiEdited/Register.html'">
+        Sign Up
+      </button>
+      <button class="signup-btn admin-btn" onclick="location.href='../AdminContracts/admin_login.php'">Admin</button>
     </div>
   </nav>
+
 
   <!-- Hero Section -->
   <section class="hero">
@@ -76,27 +83,27 @@
         <div class="footer-text-content footer-1">
           <h4>About Us</h4>
           <a href="#">Blog</a>
-          <a href="#">Our Mission</a>
-          <a href="#">Our Vision</a>
+          <a href="../Vishwa/AboutUs.html">Our Mission</a>
+          <a href="../Vishwa/AboutUs.html">Our Vision</a>
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Use</a>
         </div>
         <div class="footer-text-content footer-2">
           <h4>Contact Us</h4>
-          <a href="#">Jobs</a>
-          <a href="#">Support</a>
+          <a href="../Vishwa/Contact Us.html">Jobs</a>
+          <a href="../Vishwa/Contact Us.html">Support</a>
         </div>
 
         <div class="footer-text-content footer-3 social-media">
           <h4>Social Media</h4>
-          <a href="#">Facebook</a>
-          <a href="#">Instagram</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
+          <a href="https://facebook.com">Facebook</a>
+          <a href="https://instagram.com">Instagram</a>
+          <a href="https://linkedin.com">LinkedIn</a>
+          <a href="https://twitter.com">Twitter</a>
         </div>
       </div>
       <div class="footer-logo">
-        <img src="images_bigun/logo-new.png" alt="Logo" width="75px" height="auto" />
+        <img src="../AdminContracts/images_bigun/logo-new.png" alt="Logo" width="75px" height="auto" />
       </div>
     </div>
     <div class="footer-bottom">

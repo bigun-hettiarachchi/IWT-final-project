@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contracts List</title>
-  <link rel="stylesheet" href="style_bigun.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style_bigun.css" />
+
+  <title>Home Page</title>
 </head>
 
 <body>
@@ -16,58 +17,47 @@
     <ul class="nav-links">
       <li><a href="../AdminContracts/home.php">Home</a></li>
       <li><a href="#">Services</a></li>
-      <li><a href="/Vishwa/AboutUs.html">About</a></li>
+      <li><a href="../Vishwa/AboutUs.html">About</a></li>
       <li><a href="../Vishwa/Contact Us.html">Contact</a></li>
     </ul>
     <div class="auth-buttons">
-      <button class="login-btn hiddenbtn" onclick="location.href='login.php'">Login</button>
-      <button class="signup-btn hiddenbtn">Sign Up</button>
+      <button class="login-btn" onclick="location.href='../Vishwa/login.php'">
+        Login
+      </button>
+      <button
+        class="signup-btn"
+        onclick="location.href='../RanudiEdited/Register.html'">
+        Sign Up
+      </button>
+      <button class="signup-btn admin-btn" onclick="location.href='../AdminContracts/admin_login.php'">Admin</button>
     </div>
   </nav>
-  <section>
-    <div class="contract-head">
-      <h2>Contracts List</h2>
-      <button onclick="location.href='admin_dashboard.php'" class="btn green backdashboard">Back to Dashboard</button>
-    </div>
 
+  <!-- add two buttons to choose advertiser and publisher -->
+  <section id="dashboard-section">
 
-    <table>
-      <thead>
-        <tr>
-          <th>Contract ID</th>
-          <th>Contract Name</th>
-          <th>Details</th>
-          <th>Start Date</th>
-          <th>End Date</th>
-          <th>Fee</th>
-          <th>Customer Name</th>
-          <th>Customer Email</th>
-          <th>Customer Mobile</th>
-          <th>Actions</th>
-        </tr>
-      </thead>
-      <tbody>
-        <?php include 'contract_list.inc.php'; ?>
-      </tbody>
-    </table>
+    <h2>User Dashboard</h2>
+    <button class="dashboard-btn dbtn-1" onclick="window.location.href='../DharanaIWT/insert.php'">Advertiser</button>
+    <button class="dashboard-btn dbtn-2" onclick="window.location.href='#'">Publisher</button>
+
   </section>
 
-
+  <!-- Footer -->
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-text">
         <div class="footer-text-content footer-1">
           <h4>About Us</h4>
           <a href="#">Blog</a>
-          <a href="#">Our Mission</a>
-          <a href="#">Our Vision</a>
+          <a href="../Vishwa/AboutUs.html">Our Mission</a>
+          <a href="../Vishwa/AboutUs.html">Our Vision</a>
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Use</a>
         </div>
         <div class="footer-text-content footer-2">
           <h4>Contact Us</h4>
-          <a href="#">Jobs</a>
-          <a href="#">Support</a>
+          <a href="../Vishwa/Contact Us.html">Jobs</a>
+          <a href="../Vishwa/Contact Us.html">Support</a>
         </div>
 
         <div class="footer-text-content footer-3 social-media">
@@ -79,7 +69,7 @@
         </div>
       </div>
       <div class="footer-logo">
-        <img src="images_bigun/logo-new.png" alt="Logo" width="75px" height="auto" />
+        <img src="../AdminContracts/images_bigun/logo-new.png" alt="Logo" width="75px" height="auto" />
       </div>
     </div>
     <div class="footer-bottom">

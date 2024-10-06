@@ -15,10 +15,10 @@
       <img src="images_bigun/logo-new.png" alt="Logo" width="75px" height="auto" />
     </div>
     <ul class="nav-links">
-      <li><a href="home.php">Home</a></li>
+      <li><a href="../AdminContracts/home.php">Home</a></li>
       <li><a href="#">Services</a></li>
-      <li><a href="about.php">About</a></li>
-      <li><a href="contact.php">Contact</a></li>
+      <li><a href="../Vishwa/AboutUs.html">About</a></li>
+      <li><a href="../Vishwa/Contact Us.html">Contact</a></li>
     </ul>
     <div class="auth-buttons">
       <button class="login-btn" onclick="location.href='login.php'">Login</button>
@@ -117,10 +117,10 @@
 
         <div class="footer-text-content footer-3 social-media">
           <h4>Social Media</h4>
-          <a href="#">Facebook</a>
-          <a href="#">Instagram</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
+          <a href="https://facebook.com">Facebook</a>
+          <a href="https://instagram.com">Instagram</a>
+          <a href="https://linkedin.com">LinkedIn</a>
+          <a href="https://twitter.com">Twitter</a>
         </div>
       </div>
       <div class="footer-logo">
