@@ -17,7 +17,7 @@
     <ul class="nav-links">
       <li><a href="home.php">Home</a></li>
       <li><a href="services.php">Services</a></li>
-      <li><a href="about.php">About</a></li>
+      <li><a href="/Vishwa/AboutUs.html">About</a></li>
       <li><a href="contact.php">Contact</a></li>
     </ul>
     <div class="auth-buttons">

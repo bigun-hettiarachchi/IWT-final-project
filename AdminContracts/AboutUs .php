@@ -19,7 +19,7 @@
           height="auto" />
       </div>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
+        <li><a href="/AdminContracts/home.php">Home</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="AboutUs .php">About</a></li>
         <li><a href="Contact Us.php">Contact</a></li>
