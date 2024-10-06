@@ -1,0 +1,226 @@
+/* Basic Reset */
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  
+ body {
+  font-family: Arial, sans-serif;
+  background-image: url(../images/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} 
+
+  
+  /* Navigation Bar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+}
+ 
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+  
+.nav-links li {
+    margin-left: 15px;
+}
+  
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+  
+.auth-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px; 
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;             
+    transition: background-color 0.3s ease;
+}
+  
+.auth-buttons button:hover {
+    background-color: #0056b3;
+}
+  
+/* Publisher Services Section */
+.publisher-services-section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    max-width: 1100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px #03496c;;
+}
+  
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+  
+p {
+    margin: 10px 0 20px;
+    font-size: 16px;
+}
+  
+/* Service List */
+.service-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+  
+.service {
+    background-color: #fafafa;
+    padding: 15px;
+    flex: 1 1 45%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+.service p {
+   font-size: 14px;
+}
+  
+  .service button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;  
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;             
+  transition: background-color 0.3s ease;
+}
+  
+ /* Specific Button Colors */
+.login-btn {
+  background-color: #007bff;   
+}
+
+.signup-btn {
+  background-color: #007bff;     
+}
+ 
+.service button:hover {
+    background-color: #218838;
+}
+/* Hover Effects for Buttons */
+button:hover {
+  filter: brightness(90%);      
+}
+
+/* Active (clicked) button effect */
+button:active {
+  transform: scale(0.98);     
+}
+
+/* Disabled Button Styles */
+button:disabled {
+  background-color: #cccccc;  
+  cursor: not-allowed;         
+}
+  
+  /* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 90px;
+  margin-right: 8rem;
+}
+.footer-text h4 {
+  font-size: 20px;
+}
+.footer-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-text-content {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 60px;
+  line-height: 40px;
+}
+
+.footer-text p {
+  display: flex;
+  margin: 5px 10px;
+}
+
+.footer-logo img {
+  width: 100px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 10px;
+}
+/* Add your custom styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
