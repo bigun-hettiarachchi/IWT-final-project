@@ -8,6 +8,7 @@ $message = $_POST['message'];
 $start_date = $_POST['start_date'];
 $end_date = $_POST['end_date'];
 
+
 // Insert query
 $sql = "INSERT INTO ad_manegement (title,message, start_date, end_date) VALUES ('$name','$message','$start_date', '$end_date')";
 

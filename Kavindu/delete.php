@@ -9,11 +9,10 @@ $sql = "DELETE FROM ad_manegement WHERE ad_id='$id'"; // Change 'id' to 'ad_id'
 
 
 if ($con->query($sql)) {
-    header("Location: index.php");
+    header("Location: create.php");
     exit();
 } else {
     echo "Error: " . $con->error;
 }
 
 $con->close();
-?>

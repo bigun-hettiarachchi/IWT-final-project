@@ -8,7 +8,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-} 
+}
 
 /* Navigation Bar Styling */
 .navbar {
@@ -32,20 +32,18 @@ body {
   text-decoration: none;
 }
 
-
 .auth-buttons button {
   background-color: #007bff;
   color: white;
   border: none;
   padding: 10px 15px;
-  font-size: 16px; 
+  font-size: 16px;
   margin-left: 10px;
   cursor: pointer;
   border-radius: 5px;
-  cursor: pointer;             
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
 
 .auth-buttons button:hover {
   background-color: #0056b3;
@@ -56,7 +54,6 @@ h1 {
   text-align: left;
   margin: 20px 0;
   color: white;
-  
 }
 
 form {
@@ -78,8 +75,8 @@ form label {
   font-weight: bold;
 }
 
-form input[type="text"], 
-form input[type="date"], 
+form input[type="text"],
+form input[type="date"],
 form textarea {
   width: 100%;
   padding: 10px;
@@ -103,58 +100,58 @@ form button:hover {
   background-color: #555;
 }
 
- /* Table Styling */
- table {
+/* Table Styling */
+table {
   width: 100%;
-  border-collapse:collapse;
+  border-collapse: collapse;
   margin: 20px 0;
   padding: 10px;
   border-radius: 8px;
   border: 1px solid #ddd;
-  box-shadow: 0 2px 10px #666666;;
+  box-shadow: 0 2px 10px #666666;
 }
 
-th, td {
+th,
+td {
   padding: 10px;
   border: 2px solid #ddd;
 }
 
 th {
   background-color: #000000;
-  color: #fff;
+  color: white;
 }
 
-td{
-color: #fff;
+td {
+  color: black;
 }
- 
- 
- /* Specific Button Colors */
- .login-btn {
-  background-color: #007bff;   
+
+/* Specific Button Colors */
+.login-btn {
+  background-color: #007bff;
 }
 
 .signup-btn {
-  background-color: #007bff;     
+  background-color: #007bff;
 }
- 
+
 .Delete button:hover {
-    background-color: #218838;
+  background-color: #218838;
 }
 /* Hover Effects for Buttons */
 button:hover {
-  filter: brightness(90%);      
+  filter: brightness(90%);
 }
 
 /* Active (clicked) button effect */
 button:active {
-  transform: scale(0.98);     
+  transform: scale(0.98);
 }
 
 /* Disabled Button Styles */
 button:disabled {
-  background-color: #cccccc;  
-  cursor: not-allowed;         
+  background-color: #cccccc;
+  cursor: not-allowed;
 }
 /* Footer Styles */
 footer {
@@ -218,11 +215,14 @@ table {
   margin: 20px 0;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
 }
 
-th, td {
+th,
+td {
   padding: 10px;
   text-align: center;
 }

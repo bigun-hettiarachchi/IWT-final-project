@@ -9,6 +9,7 @@
     <title>Publisher - Manage Ads</title>
 </head>
 
+
 <body>
     <nav class="navbar">
         <div class="logo">
@@ -113,7 +114,7 @@
                 echo "<tr>";
                 echo "<td>" . $row['ad_id'] . "</td>";
                 echo "<td>" . $row['title'] . "</td>";
-                echo "<td>" . $row["message"] . "</td>";
+                echo "<td>" . $row['message'] . "</td>";
                 echo "<td>" . $row['start_date'] . "</td>";
                 echo "<td>" . $row['end_date'] . "</td>"; // Show end date here
                 echo "<td>

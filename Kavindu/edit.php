@@ -1,6 +1,7 @@
 <?php
 require 'config.php';
 
+
 $id = $_POST['ad_id']; // Get the ad ID from the POST request
 
 // Fetch the ad from the database
@@ -131,11 +132,14 @@ if ($result && $result->num_rows == 1) {
     <form method="POST" action="update.php">
         <input type="hidden" name="ad_id" value="<?php echo htmlspecialchars($id); ?>">
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Type your texr here ...value=<?php echo htmlspecialchars($id); ?>" required></textarea>
 
         <label for="name">Ad Title:</label>
         <input type="text" id="name" name="title" value="<?php echo htmlspecialchars($row['title']); ?>" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required><?php echo htmlspecialchars($row['message']); ?></textarea>
+
+        <!-- <textarea id="message" name="message" value=<?php echo htmlspecialchars($row['message']); ?>"></textarea> -->
 
         <label for="start_date">Start Date:</label>
         <input type="date" id="start_date" name="start_date" value="<?php echo htmlspecialchars($row['start_date']); ?>" required>
