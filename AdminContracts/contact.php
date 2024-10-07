@@ -18,7 +18,7 @@
     <ul class="nav-links">
       <li><a href="../AdminContracts/home.php">Home</a></li>
       <li><a href="../Kavindu/Publisherservices.html">Services</a></li>
-      <li><a href="/Vishwa/AboutUs.html">About</a></li>
+      <li><a href="../Vishwa/AboutUs .php">About</a></li>
       <li><a href="../Vishwa/Contact Us.html">Contact</a></li>
     </ul>
     <div class="auth-buttons">
