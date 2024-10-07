@@ -19,7 +19,7 @@
       <li><a href="../AdminContracts/home.php">Home</a></li>
       <li><a href="../Kavindu/Publisherservices.html">Services</a></li>
       <li><a href="../Vishwa/AboutUs .php">About</a></li>
-      <li><a href="../Vishwa/Contact Us.html">Contact</a></li>
+      <li><a href="../Vishwa/Contact Us.php">Contact</a></li>
     </ul>
     <div class="auth-buttons">
       <button class="login-btn" onclick="location.href='login.php'">Login</button>

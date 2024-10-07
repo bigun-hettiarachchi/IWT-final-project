@@ -23,10 +23,10 @@
           height="auto" />
       </div>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="AboutUs .php">About</a></li>
-        <li><a href="Contact Us.php">Contact</a></li>
+        <li><a href="../AdminContracts/home.php">Home</a></li>
+        <li><a href="../Kavindu/Publisherservices.html">Services</a></li>
+        <li><a href="../Vishwa/AboutUs.html">About</a></li>
+        <li><a href="../Vishwa/Contact Us.php">Contact</a></li>
       </ul>
       <div class="auth-buttons">
         <button class="login-btn"><a href="login.php" style="color: aliceblue; text-decoration: none;">Login</a></button>
@@ -143,7 +143,7 @@
     ";
 
     // SQL query 
-    $sql = "SELECT name, email, mobile, massage FROM support";
+    $sql = "SELECT name, email, mobile, message FROM support";
 
     $result = $con->query($sql);
 
@@ -164,7 +164,7 @@
         echo "<td>" . $row["name"] . "</td>";
         echo "<td>" . $row["email"] . "</td>";
         echo "<td>" . $row["mobile"] . "</td>";
-        echo "<td>" . $row["massage"] . "</td>";
+        echo "<td>" . $row["message"] . "</td>";
         echo "<td>
                     <div class='action-btns'>
                         <!-- Edit button - triggers edit form -->
