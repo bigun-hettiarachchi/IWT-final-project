@@ -1,0 +1,19 @@
+.advertiser-btn{
+	margin-top : 100px;
+	margin-left : 650px;
+	background-color : #6A5ACD;
+	width : 10%;
+	height : 50px;
+	font-size : 18px;
+}
+/*color slate blue*/
+/*color light blue*/
+.publisher-btn{
+	margin-top : 200px;
+	margin-left : 650px;
+	margin-bottom : 100px;
+	background-color : #ADD8E6;
+	width : 10%;
+	height : 50px;
+	font-size : 18px;
+}

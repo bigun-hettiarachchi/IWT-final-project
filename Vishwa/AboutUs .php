@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About BrightSpark Ads</title>
+  <link rel="stylesheet" href="../AdminContracts/css/aboutcss.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img
+          src="../AdminContracts/image/Logoo.png"
+          alt="Logo"
+          width="100%"
+          height="auto" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="../AdminContracts/home.php">Home</a></li>
+        <li><a href="../AdminContracts/services.php">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="../AdminContracts/Contact Us.php">Contact</a></li>
+      </ul>
+      <div class="auth-buttons">
+
+        <button class="login-btn"><a href="login.php" style="color: aliceblue; text-decoration: none;">Login</a></button>
+        <button class="signup-btn">Sign Up</button>
+      </div>
+    </nav>
+  </header>
+
+  <div>
+    <img src="image/aboutblack.jpg" alt="This is Image" style="width: 100%;height: 100%;">
+  </div>
+
+  <main>
+
+    </section>
+    <section class="about">
+
+      <h1>Discover Our Story</h1>
+      <div class="about-company">
+        <h4>About the Company</h4>
+        <p>This online advertising agency is one of the most respected companies with a particular focus on offering creative and effective digital marketing solutions. Centered around driving accountable results, at your agency, state-of-the-art technology in applying creative strategies with data-driven insight is executed to make sure your online advertisement is effective. Guiding businesses of all scales in how to maximize their online visibility while enriching customer experiences and ensuring continuous growth, you have an expert team in place. Your commitment to excellence, transparency, and client satisfaction makes your agency stand out with a difference in today's competitive digital landscape.</p>
+      </div>
+
+      <section class="mission-vision">
+        <div class="mission">
+          <h4>Our Mission</h4>
+          <p>Our mission is to bring maximum fairness to the customer by prioritizing new technology, creativity and timeliness.</p>
+        </div>
+        <div class="vision">
+          <h4>Our Vision</h4>
+          <p>Our vision is to become a globally leading provider of online marketing solutions that drive the best relationships and drive measurable growth.</p>
+        </div>
+      </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-text">
+        <div class="footer-text-content footer-1">
+          <h4>About Us</h4>
+          <a href="#">Blog</a>
+          <a href="AboutUs.html">Our Mission</a>
+          <a href="AboutUs.html">Our Vision</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+        <div class="footer-text-content footer-2">
+          <h4>Contact Us</h4>
+          <a href="#">Jobs</a>
+          <a href="Contact Us.php">Support</a>
+        </div>
+
+        <div class="footer-text-content footer-3 social-media">
+          <h4>Social Media</h4>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+      <div class="footer-logo">
+        <img src="image/logo-no-background (1).png" alt="Logo" />
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 BrightSpark Ads. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../Vishwa/aboutjs.js"></script>
+</body>
+
+</html>

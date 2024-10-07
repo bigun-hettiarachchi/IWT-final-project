@@ -10,20 +10,22 @@
 
 <body>
 
+
   <nav class="navbar">
     <div class="logo">
       <img src="images_bigun/logo-new.png" alt="Logo" width="75px" height="auto" />
     </div>
     <ul class="nav-links">
-      <li><a href="home.php">Home</a></li>
-      <li><a href="services.php">Services</a></li>
-      <li><a href="about.php">About</a></li>
-      <li><a href="contact.php">Contact</a></li>
-    </ul>
-    <div class="auth-buttons">
-      <button class="login-btn hiddenbtn">Login</button>
-      <button class="signup-btn hiddenbtn">Sign Up</button>
-    </div>
+      <ul class="nav-links">
+        <li><a href="../AdminContracts/home.php">Home</a></li>
+        <li><a href="../Kavindu/Publisherservices.html">Services</a></li>
+        <li><a href="../Vishwa/AboutUs .php">About</a></li>
+        <li><a href="../Vishwa/Contact Us.php">Contact</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <button class="login-btn hiddenbtn">Login</button>
+        <button class="signup-btn hiddenbtn">Sign Up</button>
+      </div>
   </nav>
 
   <section>
@@ -59,10 +61,10 @@
 
         <div class="footer-text-content footer-3 social-media">
           <h4>Social Media</h4>
-          <a href="#">Facebook</a>
-          <a href="#">Instagram</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
+          <a href="https://facebook.com">Facebook</a>
+          <a href="https://instagram.com">Instagram</a>
+          <a href="https://linkedin.com">LinkedIn</a>
+          <a href="https://twitter.com">Twitter</a>
         </div>
       </div>
       <div class="footer-logo">

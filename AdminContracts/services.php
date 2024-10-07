@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,10 +15,10 @@
       <img src="images_bigun/logo-new.png" alt="Logo" width="75px" height="auto" />
     </div>
     <ul class="nav-links">
-      <li><a href="home.php">Home</a></li>
+      <li><a href="../AdminContracts/home.php">Home</a></li>
       <li><a href="#">Services</a></li>
-      <li><a href="about.php">About</a></li>
-      <li><a href="contact.php">Contact</a></li>
+      <li><a href="../Vishwa/AboutUs.html">About</a></li>
+      <li><a href="../Vishwa/Contact Us.html">Contact</a></li>
     </ul>
     <div class="auth-buttons">
       <button class="login-btn" onclick="location.href='login.php'">Login</button>
@@ -28,21 +28,9 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <!-- <section class="hero">
-      <img
-        src="images/agency-hero-3.webp"
-        alt="Hero Image"
-        class="hero-img"
-        height="400px"
-      />
-      <div class="hero-text">
-        <h1>Welcome to BrightSpark Ads</h1>
-        <p>We bring your vision to life with expert advertising solutions.</p>
-      </div>
-    </section> -->
+ 
 
-  <!-- Main Content -->
+
   <div class="service-section">
     <h2>Our Services</h2>
     <p>
@@ -97,7 +85,6 @@
     </div>
   </div>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-text">
@@ -117,10 +104,10 @@
 
         <div class="footer-text-content footer-3 social-media">
           <h4>Social Media</h4>
-          <a href="#">Facebook</a>
-          <a href="#">Instagram</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
+          <a href="https://facebook.com">Facebook</a>
+          <a href="https://instagram.com">Instagram</a>
+          <a href="https://linkedin.com">LinkedIn</a>
+          <a href="https://twitter.com">Twitter</a>
         </div>
       </div>
       <div class="footer-logo">
@@ -135,4 +122,4 @@
   <script src="script_bigun.js"></script>
 </body>
 
-</html>
+</html> -->
