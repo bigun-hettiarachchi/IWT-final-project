@@ -17,10 +17,11 @@ if ($result->num_rows > 0) {
     echo "<td>" . $row["customer_name"] . "</td>";
     echo "<td>" . $row["customer_email"] . "</td>";
     echo "<td>" . $row["customer_mobile"] . "</td>";
-    echo "<td>";
+
+    echo "<td> <center>";
     echo "<button onClick=\"redirectToUpdateForm(" . $row["id"] . ")\" class='edit-btn'>Edit</button>";
     echo "<button onClick=\"deleteContract(" . $row["id"] . ")\" class='delete-btn'>Delete</button>";
-    echo "</td>";
+    echo "</center></td>";
     echo "</tr>";
   }
 } else {

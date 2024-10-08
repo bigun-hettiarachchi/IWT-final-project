@@ -283,6 +283,11 @@ button.green {
   color: white;
 }
 
+button.blue {
+  background-color: #007bff;
+  color: white;
+}
+
 button.back {
   background-color: white;
   color: #333;
@@ -319,6 +324,8 @@ th {
 }
 
 button.edit-btn {
+  margin-top: 5px;
+  width: 60px;
   background-color: #007bff;
   color: white;
   padding: 5px 10px;
@@ -328,6 +335,8 @@ button.edit-btn {
 }
 
 button.delete-btn {
+  margin-top: 5px;
+  width: 60px;
   background-color: #dc3545;
   color: white;
   padding: 5px 10px;

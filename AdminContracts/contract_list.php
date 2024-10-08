@@ -27,6 +27,7 @@
   <section>
     <div class="contract-head">
       <h2>Contracts List</h2>
+      <!-- <button onclick="location.href='create_contract.php'" class="btn blue backdashboard">New Contract</button> -->
       <button onclick="location.href='admin_dashboard.php'" class="btn green backdashboard">Back to Dashboard</button>
     </div>
 
@@ -50,6 +51,13 @@
         <?php include 'contract_list.inc.php'; ?>
       </tbody>
     </table>
+
+    <br><br><br>
+
+    <center>
+      <button onclick="location.href='create_contract.php'" class="btn blue backdashboard">New Contract</button>
+    </center>
+
   </section>
 
 
