@@ -15,7 +15,8 @@
         </header>
 
         <div class="login-box">
-            <a href="../AdminContracts/home.php" class="back-arrow">&#x2190;</a>
+            <!-- <a href="../AdminContracts/home.php" class="back-arrow">&#x2190;</a> -->
+            <a href="javascript:history.back()" class="back-arrow">&#x2190;</a>
             <h2>Login</h2>
 
             <form action="../AdminContracts/afterLogin.php" method="post">
