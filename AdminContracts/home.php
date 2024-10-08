@@ -85,7 +85,7 @@
           <a href="#">Blog</a>
           <a href="../Vishwa/AboutUs.html">Our Mission</a>
           <a href="../Vishwa/AboutUs.html">Our Vision</a>
-          <a href="#">Privacy Policy</a>
+          <a href="../AdminContracts/privacy_policy.html">Privacy Policy</a>
           <a href="#">Terms of Use</a>
         </div>
         <div class="footer-text-content footer-2">

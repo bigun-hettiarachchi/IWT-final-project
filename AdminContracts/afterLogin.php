@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style_bigun.css" />
 
-  <title>Home Page</title>
+  <title>After Login</title>
 </head>
 
 <body>

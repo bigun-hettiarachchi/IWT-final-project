@@ -42,6 +42,7 @@
 
       if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
+
         $contract_name = $row['contract_name'];
         $contract_details = $row['contract_details'];
         $start_date = $row['start_date'];
@@ -69,8 +70,7 @@
         echo "<input type='email' name='customer_email' value='" . $customer_email . "'><br>";
         echo "<label for='customer_mobile'>Customer Mobile</label>";
         echo "<input type='text' name='customer_mobile' value='" . $customer_mobile . "'><br>";
-        echo "<button type='submit' class='btn green'>Update Contract</button>";
-        echo "<button type='button' onclick='location.href=\"contract_list.php\"' class='btn back'>Cancel</button>";
+        echo "<button type='submit'>Update Contract</button>";
         echo "</form>";
       } else {
         echo "No records found.";

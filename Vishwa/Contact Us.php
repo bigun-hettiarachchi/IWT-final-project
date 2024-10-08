@@ -201,7 +201,7 @@
             <a href="#">Blog</a>
             <a href="AboutUs.php">Our Mission</a>
             <a href="AboutUs.php">Our Vision</a>
-            <a href="#">Privacy Policy</a>
+            <a href="../AdminContracts/privacy_policy.html">Privacy Policy</a>
             <a href="#">Terms of us</a>
           </div>
           <div class="footer-text-content footer-2">
