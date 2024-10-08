@@ -1,6 +1,7 @@
 // Simulating advertisement management process
 function manageContent() {
   alert("Redirecting to Advertisement Management System...");
+  window.location.href = "../Kavindu/create.php";
 }
 
 // Simulating ad management process
