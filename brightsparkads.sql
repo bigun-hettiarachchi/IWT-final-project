@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Oct 08, 2024 at 05:02 AM
+-- Generation Time: Oct 08, 2024 at 06:07 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -52,13 +52,6 @@ CREATE TABLE `advertise_details` (
   `Budget` decimal(10,0) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `advertise_details`
---
-
-INSERT INTO `advertise_details` (`advertiseName`, `selectpublisher`, `adcontent`, `Budget`) VALUES
-('bigun', 'Publisher3', 'sdsads', 22);
-
 -- --------------------------------------------------------
 
 --
@@ -72,13 +65,6 @@ CREATE TABLE `ad_manegement` (
   `start_date` date NOT NULL,
   `end_date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `ad_manegement`
---
-
-INSERT INTO `ad_manegement` (`ad_id`, `title`, `message`, `start_date`, `end_date`) VALUES
-(10, 'ad1 iitladf', 'fafa dickkkakakaa', '2024-10-05', '2024-11-09');
 
 -- --------------------------------------------------------
 
@@ -103,7 +89,9 @@ CREATE TABLE `contracts` (
 --
 
 INSERT INTO `contracts` (`id`, `contract_name`, `contract_details`, `start_date`, `end_date`, `contract_fee`, `customer_name`, `customer_email`, `customer_mobile`) VALUES
-(1, 'final contract', 'as', '2024-10-09', '2024-11-01', 22, 'dsf', 'asd@d.com', '0778777138');
+(4, 'facebook ad campaign', 'this is about a facebook ad campaign......', '2023-02-02', '2023-05-04', 359, 'Sampath', 'sampath@s.com', '0777777111'),
+(5, 'ad for uni', 'university promotion contract', '2024-06-07', '2024-10-12', 1200, 'SLIIT', 'admin@sliit.lk', '0777853477'),
+(6, 'YouTube Ad campaign', 'campaign to promote a product on youtube ads', '2024-12-12', '2025-04-04', 359, 'Henry', 'henry@h.com', '+44897739832');
 
 -- --------------------------------------------------------
 
@@ -117,15 +105,6 @@ CREATE TABLE `support` (
   `mobile` int(20) NOT NULL,
   `message` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `support`
---
-
-INSERT INTO `support` (`name`, `email`, `mobile`, `message`) VALUES
-('Bigun Avishka Hettiarachchi', 'aaabadsf@gmail.com', 778777138, 'www'),
-('Bigun Avishka', 'abigunhettiarachchi@gmail.com', 778777138, 'ajl;aasaaasfasfasfs'),
-('Bigun Avishka Hettiarachchi', 'b@gmail.com', 778777138, 'asd');
 
 -- --------------------------------------------------------
 
@@ -144,13 +123,6 @@ CREATE TABLE `user` (
   `role` varchar(50) NOT NULL,
   `psw` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `user`
---
-
-INSERT INTO `user` (`firstname`, `lastname`, `ID`, `gender`, `mobile`, `email`, `DOB`, `role`, `psw`) VALUES
-('tim', 'baraakakjfasd3443', 2, 'Female', 778777138, 'timmma@gmail.com', '2024-10-03', 'Publisher', 'AAA123@x');
 
 --
 -- Indexes for dumped tables
@@ -194,13 +166,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `ad_manegement`
 --
 ALTER TABLE `ad_manegement`
-  MODIFY `ad_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `ad_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `contracts`
 --
 ALTER TABLE `contracts`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `user`
