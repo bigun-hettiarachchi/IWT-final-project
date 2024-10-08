@@ -8,7 +8,6 @@
   <title>Display Page</title>
 </head>
 
-
 <body>
   <!-- Navbar Section -->
   <nav class="navbar">
