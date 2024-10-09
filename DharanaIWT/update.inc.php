@@ -3,6 +3,7 @@
 // Include DB connection
 require_once 'connection.php';
 
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Check if the POST data is received correctly
     if (isset($_POST['advertiseName'], $_POST['selectpublisher'], $_POST['adContent'], $_POST['Budget'])) {
